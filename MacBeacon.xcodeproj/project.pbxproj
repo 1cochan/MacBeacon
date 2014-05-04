@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		513303DB1915E50400233896 /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 513303DA1915E50400233896 /* MyWindow.m */; };
 		D0D751C9191122D0002BB142 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D751C8191122D0002BB142 /* Cocoa.framework */; };
 		D0D751D3191122D0002BB142 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0D751D1191122D0002BB142 /* InfoPlist.strings */; };
 		D0D751D5191122D0002BB142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D751D4191122D0002BB142 /* main.m */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		513303D91915E50400233896 /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
+		513303DA1915E50400233896 /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
 		D0D751C5191122D0002BB142 /* MacBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D751C8191122D0002BB142 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D0D751CB191122D0002BB142 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -126,6 +129,8 @@
 			children = (
 				D0D751DA191122D0002BB142 /* AppDelegate.h */,
 				D0D751DB191122D0002BB142 /* AppDelegate.m */,
+				513303D91915E50400233896 /* MyWindow.h */,
+				513303DA1915E50400233896 /* MyWindow.m */,
 				D0D751DD191122D0002BB142 /* MainMenu.xib */,
 				D0D751E0191122D0002BB142 /* Images.xcassets */,
 				D0D751CF191122D0002BB142 /* Supporting Files */,
@@ -264,6 +269,7 @@
 				D0D751DC191122D0002BB142 /* AppDelegate.m in Sources */,
 				D0D751D5191122D0002BB142 /* main.m in Sources */,
 				D0D7520019112344002BB142 /* MBCBeaconAdvertisementData.m in Sources */,
+				513303DB1915E50400233896 /* MyWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +482,7 @@
 				D0D751F8191122D0002BB142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0D751F9191122D0002BB142 /* Build configuration list for PBXNativeTarget "MacBeaconTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +491,7 @@
 				D0D751FB191122D0002BB142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
